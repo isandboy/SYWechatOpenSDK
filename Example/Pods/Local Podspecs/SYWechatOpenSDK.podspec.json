@@ -1,0 +1,36 @@
+{
+  "name": "SYWechatOpenSDK",
+  "version": "0.1.0",
+  "summary": "A short description of SYWechatOpenSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/isandboy/SYWechatOpenSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "isandboy": "sandboylu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/isandboy/SYWechatOpenSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "public_header_files": "SYWechatOpenSDK/*.h",
+  "source_files": "SYWechatOpenSDK/*.{h,m,swift}",
+  "vendored_libraries": "SYWechatOpenSDK/libWeChatSDK.a",
+  "libraries": [
+    "c++",
+    "sqlite3",
+    "z"
+  ],
+  "frameworks": [
+    "CoreTelephony",
+    "SystemConfiguration"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-all_load"
+  }
+}

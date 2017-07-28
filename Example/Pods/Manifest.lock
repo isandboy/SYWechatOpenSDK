@@ -1,0 +1,16 @@
+PODS:
+  - SYWechatOpenSDK (0.1.0)
+
+DEPENDENCIES:
+  - SYWechatOpenSDK (from `../`)
+
+EXTERNAL SOURCES:
+  SYWechatOpenSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SYWechatOpenSDK: ec6fea315f4d837c121c91190e6255ec5e68b06e
+
+PODFILE CHECKSUM: fd7e94a0482ec7281fd7d6435f49e44a3e63f7bc
+
+COCOAPODS: 1.1.1
