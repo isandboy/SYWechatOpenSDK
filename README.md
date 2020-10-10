@@ -16,6 +16,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 SYWechatOpenSDK is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
+版本：OpenSDK1.8.7.1
+
 ```ruby
 pod "SYWechatOpenSDK"
 ```

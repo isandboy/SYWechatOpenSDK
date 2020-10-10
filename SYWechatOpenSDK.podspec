@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SYWechatOpenSDK'
-  s.version          = '1.7.9'
+  s.version          = '1.8.7.1'
   s.summary          = '微信分享，支付SDK，支持打包成动态库'
 
 # This description is used to generate tags and improve search results.
@@ -33,8 +33,8 @@ Pod::Spec.new do |s|
   s.source_files = 'SYWechatOpenSDK/*.{h,m}'
   s.vendored_libraries = 'SYWechatOpenSDK/libWeChatSDK.a'
   s.libraries = 'c++', 'sqlite3', 'z'
-  s.frameworks = 'CoreTelephony', 'SystemConfiguration', 'Security', 'CoreTelephony', 'CFNetwork'
+  s.frameworks = 'CoreTelephony', 'SystemConfiguration', 'Security', 'CoreTelephony', 'CFNetwork', 'WebKit'
 
-  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load','VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
 end

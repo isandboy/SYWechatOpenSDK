@@ -1,5 +1,5 @@
 PODS:
-  - SYWechatOpenSDK (0.1.0)
+  - SYWechatOpenSDK (1.8.7.1)
 
 DEPENDENCIES:
   - SYWechatOpenSDK (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SYWechatOpenSDK: ec6fea315f4d837c121c91190e6255ec5e68b06e
+  SYWechatOpenSDK: c0a831034e39629e711dbbc332ab8dc619e348a7
 
 PODFILE CHECKSUM: fd7e94a0482ec7281fd7d6435f49e44a3e63f7bc
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.9.3
